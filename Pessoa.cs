@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Interfaces
 {
-    class Pessoa : ITrepar
+    class Pessoa : IAcasalamento
     {
         public string Nome { get; set; }
         public string Sexo { get; set; }
